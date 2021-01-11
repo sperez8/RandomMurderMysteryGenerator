@@ -1,0 +1,30 @@
+kitchen
+bathroom
+living room
+conservatory
+master bedroom
+guest bedrooms
+hallway
+entrance
+billard
+study
+office
+gamesroom
+dining room
+library
+attic
+servants chambers
+secondary bedroom
+guest bedroom
+ballroom
+music room
+dinning hall
+entrance hall
+foyer
+reading room
+workshop
+basement
+storage room
+main living room
+secondary living room
+party parlour
