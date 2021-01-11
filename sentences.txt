@@ -5,7 +5,7 @@ ITEM is thrown across the ROOM.
 CHARACTER finds CHARACTER's body in the ROOM with ITEM nearby and it's bloody.
 CHARACTER screams.
 CHARACTER is dead.
-Is CHARACTER the murderder?
+Is CHARACTER the murderer?
 Quick! To the ROOM!
 Where is CHARACTER?
 Where could one find ITEM?
