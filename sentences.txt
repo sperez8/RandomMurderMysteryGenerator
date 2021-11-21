@@ -15,7 +15,7 @@ No one has set foot in the ROOM all evening.
 The ROOM is kept locked.
 In the drawer, CHARACTER finds ITEM.
 Why did you do that CHARACTER?
-CHACRACTER and CHARACTER leave the ROOM.
+CHARACTER and CHARACTER leave the ROOM.
 A loud sound is heard from the ROOM.
 Suddenly, everyone notices CHARACTER is missing.
 CHARACTER finds ITEM under the carpet.
