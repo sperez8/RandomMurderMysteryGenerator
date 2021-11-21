@@ -21,18 +21,12 @@ sentences = [x.strip('\n') for x in f.readlines()]
 def capitalizer(s):
 	return s[0].capitalize() + s[1:]
 
-objects = {
-	'CHARACTER': characters,
-	'ROOM':rooms,
-	# 'VERB_TO': verb_to,
-	'ITEM': items
-}
-
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description="Write a murder mystery with certain chacracteristics.")
-	parser.add_argument("--seed", type=int, help="The random seed.", default=None)
+	parser.add_argument("-s","--seed", type=int, help="The random seed.", default=None)
 	parser.add_argument("-n", type=int, help="The number of sentences.", default=10)
+	parser.add_argument("--cast", help="Weither to cast a set of characters, rooms and items or never reuse them.", action="store_true")
 	args = parser.parse_args()
 	print("here")
 
@@ -41,6 +35,23 @@ if __name__ == "__main__":
 		rand.seed(args.seed)
 
 	novel = "\n"
+
+	cast = {}
+	if args.cast:
+		cast = {
+			"CHARACTER": rand.sample(characters, 5),
+			"ROOM": rand.sample(rooms, 5),
+			# "VERB_TO": verb_to,
+			"ITEM": items
+		}
+	else:
+		cast = {
+			"CHARACTER": characters,
+			"ROOM":rooms,
+			# "VERB_TO": verb_to,
+			"ITEM": items
+		}
+
 	for _ in range(nb_sentences):
 
 		used = set() # we keep track of characters/items/verbs used so we don't reuse them in the sentence
@@ -48,7 +59,7 @@ if __name__ == "__main__":
 		sentence = rand.choice(sentences)
 
 		# for each thing to replace
-		for object_type, object_choices in objects.items():
+		for object_type, object_choices in cast.items():
 			while object_type in sentence:
 				choice = None
 				while choice in used or choice is None:

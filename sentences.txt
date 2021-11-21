@@ -11,6 +11,16 @@ Where is CHARACTER?
 Where could one find ITEM?
 CHARACTER was last seen in the ROOM.
 CHARACTER's great collection, including ITEM and ITEM have gone missing from the ROOM.
+The blood has been wiped clean from the ROOM.
+CHARACTER asks CHARACTER for a word in private.
+Whenever CHARACTER enters the room, all go quiet.
+CHARACTER finds a hidden door in the ROOM.
+What was CHARACTER doing in the ROOM?
+Why is CHARACTER holding ITEM?
+The doorbell rings.
+A candle blows out.
+CHARACTER closes the window in the ROOM.
+CHARACTER asks CHARACTER to admit the truth.
 No one has set foot in the ROOM all evening.
 The ROOM is kept locked.
 In the drawer, CHARACTER finds ITEM.
@@ -23,3 +33,8 @@ ITEM floats into the ROOM.
 CHARACTER asks CHARACTER for ITEM.
 The display case that protects ITEM is broken. 
 The ceiling of the ROOM start dripping a viscous liquid, dirtying ITEM.
+If only CHARACTER could find ITEM, they could figure things out.
+CHARACTER seems awfully quiet.
+CHARACTER rushed out of the ROOM.
+The lights go out.
+At the end of the ROOM, CHARACTER hears a knock.
